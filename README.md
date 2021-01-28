@@ -6,7 +6,9 @@
 
  - **MEKONGO ABANDA Yannick - IT5 ILC**
  - **TONFE TCHATAT DAPHNIE - IT5 ILC**
- ## PRESENTATION DU PROJET : 
+ ## PRESENTATION DU PROJET :
+ NB : Pour tester l'agorithme, vous aurez besoin de récupérer le modèle enregistré en cliquant sur --> : **[model_with_25_epoch.model](https://drive.google.com/file/d/1mTzKoHMU-8UYbKVg_aKmxhHGE449S1Hd/view?usp=sharing)**
+ 
  Ce projet avait pour objectif principal de nous familiariser avec les concepts d’apprentissage automatique, dans le domaine de l’intelligence artificiel. Il était question pour nous de concevoir un algorithme de détection du port de masque. Cet algorithme devait donc être capable de détecter si un individu porte bien son masque, porte mal ou ne porte pas de masque. Avant de présenter notre travail, il est important de présenter les outils/Framework que l’on a utilisé pour arriver à la solution finale.
  
 Les trois scripts python utilisés sont :
