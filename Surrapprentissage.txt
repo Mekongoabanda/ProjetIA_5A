@@ -1,0 +1,24 @@
+Surapprentissage :
+
+Dans les graphiques ci-dessus, la précision de la formation augmente de manière linéaire au fil du temps,
+tandis que la précision de la validation stagne autour de 60% dans le processus de formation. De plus,
+la différence de précision entre la précision de la formation et celle de la validation est perceptible - signe de surajustement .
+Lorsqu'il existe un petit nombre d'exemples de formation, le modèle apprend parfois des bruits ou des détails indésirables des exemples de formation,
+dans une mesure où cela a un impact négatif sur les performances du modèle sur les nouveaux exemples.
+Ce phénomène est connu sous le nom de surajustement. Cela signifie que le modèle aura du mal à se généraliser sur un nouvel ensemble de données.
+Il existe plusieurs façons de lutter contre le surajustement dans le processus de formation.
+Dans ce projet, nous allons utiliser l'augmentation des données et ajouter Dropout à notre modèle.
+
+AUGMENTATION DES DONNEES:
+Le surajustement se produit généralement lorsqu'il existe un petit nombre d'exemples d'entraînement.
+L'augmentation des données adopte l'approche consistant à générer des données d'entraînement supplémentaires
+à partir de nos exemples existants en les augmentant à l'aide de transformations aléatoires qui donnent des
+images crédibles. Cela permet d'exposer le modèle à plus d'aspects des données et de mieux généraliser.
+
+DROpOUT(Abandonner)
+Une autre technique pour réduire le surajustement consiste à introduire le Dropout dans le réseau,
+une forme de régularisation .
+Lorsque vous appliquez Dropout à un calque, il supprime de manière aléatoire (en définissant l'activation sur zéro)
+un certain nombre d'unités de sortie du calque pendant le processus d'apprentissage. L'abandon prend un nombre
+fractionnaire comme valeur d'entrée, sous la forme telle que 0,1, 0,2, 0,4, etc. Cela signifie supprimer 10%, 20%
+ou 40% des unités de sortie de manière aléatoire de la couche appliquée.
