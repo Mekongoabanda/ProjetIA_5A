@@ -14,7 +14,7 @@
 Les trois scripts python utilisés sont :
  - **[classification.py](https://github.com/Mekongoabanda/ProjetIA_5A/blob/main/classificationTraining.py)** : Notre script à exécuter pour le lancement de l'algorithme. c'est dans ce script que s'effectue notre entraînement
  - **[live_detection.py](https://github.com/Mekongoabanda/ProjetIA_5A/blob/main/live_detection.py)** : C'est via ce script que se lance la prédiction temps réel .Il se lance à partir du fichier ci dessus.
- - **[(extractXmlToDataset.py)](https://github.com/Mekongoabanda/ProjetIA_5A/blob/main/extractXmlToDataset.py)** : qui permet de classifier notre Dataset en parcourant les annotations des images et en sauvegardant chaque visage dans son dossier correspondant. Vous pouvez retrouver un exemple d'une image et son annotation (extension .xml) dans le dossier "image_annotée".
+ - **[(extractXmlToDataset.py)](https://github.com/Mekongoabanda/ProjetIA_5A/blob/main/extractXmlToDataset.py)** : qui permet de classifier notre Dataset en parcourant les annotations des images et en sauvegardant chaque visage dans son dossier correspondant. Vous pouvez retrouver un exemple d'une image et son annotation (extension .xml) dans le dossier "images".
 
  
 
